@@ -56,7 +56,7 @@ if uploaded_file is not None:
     elif prediction == labels[1]:
          st.write("짜짜라짜짜라짜장면")
     elif prediction == labels[2]:
-         st.write("뽕뽕 짬!!")
+         st.write("뽕뽕 짬뽕!!")
 
     for label, prob in zip(labels, probs):
         # HTML 및 CSS로 확률을 시각화
